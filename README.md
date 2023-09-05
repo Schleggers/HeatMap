@@ -28,8 +28,9 @@ The remainder is for you to explore the various features available within the ap
 
 - [python](https://www.python.org/downloads/)
 - [pip](https://pip.pypa.io/en/stable/installation/)
-Once you've installed python and pip, you can open you console in the folder containing Requirements.txt and do the fillowing command:
 
+
+Once you've installed python and pip, you can open you console in the folder containing Requirements.txt and do the fillowing command:
 ```
 python -m pip install -r requirements.txt 
 ```
@@ -46,6 +47,7 @@ you simply have to do
 ```
 python -m pip install Library_Name
 ```
+
 Once you've installed the requirements, if you are using vs-code to test and edit the app, open a console in you source folder and type:
 ```
 code .
