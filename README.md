@@ -6,15 +6,15 @@ This Qt application, developed in Python, is designed to visualize temperature d
 
 
 
-## Downloads
+## Download the app (no requirements)
  - [Windows](https://drive.google.com/file/d/1WYRCISDfaF-NpuLvqgleUJ0MRwxyoRLz/view?usp=drive_link) 
  - [MacOs](https://drive.google.com/file/d/1NsbZent1EqGbd8IyetOevRSEDSy9UsBb/view?usp=sharing)
  - [Linux](https://google.com) (no link available yet)
 
  #### First time opening:
-Once downloaded, you will find the executable file located within the `dist` directory. The application will prompt you to select a `.csv` file, from which it will analyze the temperature data of various battery modules.
+Once downloaded, you will find the executable file named BatteryTemp.exe located within the `dist` directory. The application will prompt you to select a `.csv` file, from which it will analyze the temperature data of various battery modules.
 
-The remainder is for you to explore the various features available within the application.
+The remainder is for you to explore the various features available within the application, but note that the drive is updated less often than the git repo, so if you want to see the latest version of the app, see below.
 
 
 
