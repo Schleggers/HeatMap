@@ -54,7 +54,9 @@ It will automatically open vs-code in this folder and you will be able to edit a
 
 ### Run the app:
 In your source folder containing the 3 `.py` files, open a console and type:
-```pyhton main.py```
+```
+pyhton main.py
+```
 
 ## Feedback
 
