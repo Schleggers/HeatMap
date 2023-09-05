@@ -7,7 +7,7 @@ This Qt application, developed in Python, is designed to visualize temperature d
 
 
 ## Downloads
- - [Windows](https://google.com) (no link available yet)
+ - [Windows]([https://google.com](https://drive.google.com/file/d/1WYRCISDfaF-NpuLvqgleUJ0MRwxyoRLz/view?usp=drive_link))
  - [MacOs](https://google.com) (no link available yet)
  - [Linux](https://google.com) (no link available yet)
 
