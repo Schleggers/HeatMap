@@ -7,8 +7,8 @@ This Qt application, developed in Python, is designed to visualize temperature d
 
 
 ## Downloads
- - [Windows]([https://google.com](https://drive.google.com/file/d/1WYRCISDfaF-NpuLvqgleUJ0MRwxyoRLz/view?usp=drive_link))
- - [MacOs](https://google.com) (no link available yet)
+ - [Windows](https://drive.google.com/file/d/1WYRCISDfaF-NpuLvqgleUJ0MRwxyoRLz/view?usp=drive_link) 
+ - [MacOs](https://drive.google.com/file/d/1NsbZent1EqGbd8IyetOevRSEDSy9UsBb/view?usp=sharing)
  - [Linux](https://google.com) (no link available yet)
 
  #### First time opening:
@@ -57,7 +57,7 @@ It will automatically open vs-code in this folder and you will be able to edit a
 ### Run the app:
 In your source folder containing the 3 `.py` files, open a console and type:
 ```
-pyhton main.py
+pyhton BatteryTemps.py
 ```
 
 ## Feedback
