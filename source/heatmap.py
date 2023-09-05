@@ -158,8 +158,6 @@ class Heatmap:
         time_stats = self._compute_common_stats(row_data.values, row_offset=time, ignore_zero=ignore_zero)
         for k, v in time_stats.items():
             stats += str(f"\n{k}: {v}")
-        stats += "\n"
-        stats += str('\n' + self._compute_additional_stats(row_data.values))
         return stats
 
     def show_module_stats(self, module, ignore_zero=False):
@@ -180,17 +178,23 @@ class Heatmap:
         for k, v in front_stats.items():
             stats += str(f"\n{k}: {v}")
         stats += "\n"
+        stats += str('\n' + self._compute_additional_stats(front_data.mean(axis=1).values))
+        stats += "\n"
         # Back data starts from back_start column, so col_offset is back_start
         stats += str(f"\nBack of Module {module} Stats:")
         back_stats = self._compute_common_stats(back_data.values, col_offset=back_start, ignore_zero=ignore_zero)
         for k, v in back_stats.items():
             stats += str(f"\n{k}: {v}")
         stats += "\n"
+        stats += str('\n' + self._compute_additional_stats(back_data.mean(axis=1).values))
+        stats += "\n"
         # Sensor data starts from front_start column, so col_offset is front_start
         stats += str(f"\nEntire Module {module} Stats:")
         module_stats = self._compute_common_stats(module_data.values, col_offset=front_start, ignore_zero=ignore_zero)
         for k, v in module_stats.items():
             stats += str(f"\n{k}: {v}")
+        stats += "\n"
+        stats += str('\n' + self._compute_additional_stats(module_data.mean(axis=1).values))
         return stats
 
 
